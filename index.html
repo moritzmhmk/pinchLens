@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>PinchLens</title> 
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://rawgithub.com/brandonaaron/jquery-mousewheel/master/jquery.mousewheel.js" type="text/javascript"></script>
+	<script src="jquery.pinchLens.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(function () {
+			$("#test").pinchLens()
+		})
+	</script>
+	<style>
+		body {
+			font-family:Helvetica;
+		}
+		h1 {
+			text-align:center;
+			font-size:40pt;
+			margin:0;
+		}
+	</style>
+</head>
+<body>
+	<h1>PinchLens Demo</h1>
+    <img id="test" src="http://farm8.staticflickr.com/7158/6757004375_01682b02b7_o_d.jpg" style="width:100%">
+</body>
+</html>
